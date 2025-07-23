@@ -10,7 +10,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 
 
 # Set your Gemini API key
-api_key = "AIzaSyDxXG6meAHlvy0H10_pnBJqE_WM846Y9HE"
+api_key = "API_KEY"
 
 def load_retriever(faiss_path="faiss_index"):
     embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
